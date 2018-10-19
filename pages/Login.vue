@@ -141,7 +141,7 @@ export default {
   },
   asyncData() {
     // We can return a Promise instead of calling the callback
-    return axios.get("http://39.104.116.65/users/").then(res => {
+    return axios.get("https://api.pmptiku.com/users/").then(res => {
       return { items: res.data };
     });
   },

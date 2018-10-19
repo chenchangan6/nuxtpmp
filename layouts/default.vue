@@ -14,6 +14,9 @@
       <span>
         <nuxt-link to="/singup"><h1>注册页</h1></nuxt-link>
       </span>
+      <span>
+        <nuxt-link to="/zhuce"><h1>标准注册</h1></nuxt-link>
+      </span>
     </div>
     <nuxt/>
   </div>
